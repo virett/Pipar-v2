@@ -1,0 +1,6 @@
+playwright
+pandas
+gspread
+gspread-pandas
+oauth2client
+Flask
