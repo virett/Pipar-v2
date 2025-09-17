@@ -3,9 +3,9 @@ name: Daily Pinterest Stats Collector
 
 on:
   schedule:
-    # Запуск дважды в день: в 10:45 и 22:45 по UTC.
-    - cron: '45 10 * * *'
-    - cron: '45 22 * * *'
+    # Запуск дважды в день: в 11:30 и 23:30 по UTC.
+    - cron: '30 11 * * *'
+    - cron: '30 23 * * *'
   
   # Возможность ручного запуска
   workflow_dispatch:
